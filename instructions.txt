@@ -1,0 +1,14 @@
+1.fir go to cmd and type this command
+mkdir aka
+cd aka
+npm init -y
+2.to install necessary packages type these comand
+npm install express mysql body-parser
+npm install react 
+3. connect the database and type these command to create tables and database in workbench
+CREATE DATABASE root;
+USE root;
+CREATE TABLE your_table (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
